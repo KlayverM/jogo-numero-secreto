@@ -62,10 +62,10 @@ function limparCampo(){
 }
 function gerarNumeroAleatorio()
 {
-   let numSorteado = parseInt(Math.random() * 10 +1);
+   let numSorteado = parseInt(Math.random() * 100 +1);
    let quantElemListNumSorteado = listaDeNumeroSorteado.length;
    
-   if(quantElemListNumSorteado == 10){
+   if(quantElemListNumSorteado == 100){
       listaDeNumeroSorteado = [];
    }
    //VERIFICA SE O NUMERO SORTEADO ESTA NA LISTA
